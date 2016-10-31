@@ -8,12 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		7A7971091DC652B200D55946 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A7971081DC652B200D55946 /* AppDelegate.swift */; };
-		7A79710B1DC652B200D55946 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A79710A1DC652B200D55946 /* ViewController.swift */; };
+		7A79710B1DC652B200D55946 /* JankenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A79710A1DC652B200D55946 /* JankenViewController.swift */; };
 		7A79710E1DC652B200D55946 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A79710C1DC652B200D55946 /* Main.storyboard */; };
 		7A7971101DC652B200D55946 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A79710F1DC652B200D55946 /* Assets.xcassets */; };
 		7A7971131DC652B200D55946 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A7971111DC652B200D55946 /* LaunchScreen.storyboard */; };
 		7A79711E1DC652B200D55946 /* JankenTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A79711D1DC652B200D55946 /* JankenTests.swift */; };
 		7A7971291DC652B200D55946 /* JankenUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A7971281DC652B200D55946 /* JankenUITests.swift */; };
+		7A7971371DC6531F00D55946 /* Janken.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A7971361DC6531F00D55946 /* Janken.swift */; };
+		7A7971391DC6535700D55946 /* Weapon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A7971381DC6535700D55946 /* Weapon.swift */; };
+		7A79713B1DC6538C00D55946 /* Referee.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A79713A1DC6538C00D55946 /* Referee.swift */; };
+		7A79713D1DC653B700D55946 /* JankenPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A79713C1DC653B700D55946 /* JankenPlayer.swift */; };
+		7A79713F1DC653F000D55946 /* Design.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A79713E1DC653F000D55946 /* Design.swift */; };
+		7A7971411DC6543E00D55946 /* PlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A7971401DC6543E00D55946 /* PlayerView.swift */; };
+		7A7971431DC6547900D55946 /* WeaponCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A7971421DC6547900D55946 /* WeaponCollectionCell.swift */; };
+		7AFF6C311DC751C300617E7D /* ResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AFF6C301DC751C300617E7D /* ResultView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +44,7 @@
 /* Begin PBXFileReference section */
 		7A7971051DC652B200D55946 /* Janken.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Janken.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A7971081DC652B200D55946 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		7A79710A1DC652B200D55946 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7A79710A1DC652B200D55946 /* JankenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JankenViewController.swift; sourceTree = "<group>"; };
 		7A79710D1DC652B200D55946 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7A79710F1DC652B200D55946 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7A7971121DC652B200D55946 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +55,14 @@
 		7A7971241DC652B200D55946 /* JankenUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JankenUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A7971281DC652B200D55946 /* JankenUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JankenUITests.swift; sourceTree = "<group>"; };
 		7A79712A1DC652B200D55946 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A7971361DC6531F00D55946 /* Janken.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Janken.swift; sourceTree = "<group>"; };
+		7A7971381DC6535700D55946 /* Weapon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Weapon.swift; sourceTree = "<group>"; };
+		7A79713A1DC6538C00D55946 /* Referee.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Referee.swift; sourceTree = "<group>"; };
+		7A79713C1DC653B700D55946 /* JankenPlayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JankenPlayer.swift; sourceTree = SOURCE_ROOT; };
+		7A79713E1DC653F000D55946 /* Design.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Design.swift; sourceTree = "<group>"; };
+		7A7971401DC6543E00D55946 /* PlayerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerView.swift; sourceTree = "<group>"; };
+		7A7971421DC6547900D55946 /* WeaponCollectionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeaponCollectionCell.swift; sourceTree = "<group>"; };
+		7AFF6C301DC751C300617E7D /* ResultView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,7 +114,15 @@
 			isa = PBXGroup;
 			children = (
 				7A7971081DC652B200D55946 /* AppDelegate.swift */,
-				7A79710A1DC652B200D55946 /* ViewController.swift */,
+				7A79713E1DC653F000D55946 /* Design.swift */,
+				7A7971361DC6531F00D55946 /* Janken.swift */,
+				7A79710A1DC652B200D55946 /* JankenViewController.swift */,
+				7A7971381DC6535700D55946 /* Weapon.swift */,
+				7A79713C1DC653B700D55946 /* JankenPlayer.swift */,
+				7A7971401DC6543E00D55946 /* PlayerView.swift */,
+				7A7971421DC6547900D55946 /* WeaponCollectionCell.swift */,
+				7AFF6C301DC751C300617E7D /* ResultView.swift */,
+				7A79713A1DC6538C00D55946 /* Referee.swift */,
 				7A79710C1DC652B200D55946 /* Main.storyboard */,
 				7A79710F1DC652B200D55946 /* Assets.xcassets */,
 				7A7971111DC652B200D55946 /* LaunchScreen.storyboard */,
@@ -193,6 +217,7 @@
 				TargetAttributes = {
 					7A7971041DC652B200D55946 = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 356ZH6XUVH;
 						ProvisioningStyle = Automatic;
 					};
 					7A7971181DC652B200D55946 = {
@@ -259,8 +284,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7A79710B1DC652B200D55946 /* ViewController.swift in Sources */,
+				7A7971371DC6531F00D55946 /* Janken.swift in Sources */,
+				7A7971431DC6547900D55946 /* WeaponCollectionCell.swift in Sources */,
+				7A79713F1DC653F000D55946 /* Design.swift in Sources */,
+				7A79713B1DC6538C00D55946 /* Referee.swift in Sources */,
+				7A7971411DC6543E00D55946 /* PlayerView.swift in Sources */,
+				7A7971391DC6535700D55946 /* Weapon.swift in Sources */,
+				7A79710B1DC652B200D55946 /* JankenViewController.swift in Sources */,
+				7AFF6C311DC751C300617E7D /* ResultView.swift in Sources */,
 				7A7971091DC652B200D55946 /* AppDelegate.swift in Sources */,
+				7A79713D1DC653B700D55946 /* JankenPlayer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -410,6 +443,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 356ZH6XUVH;
 				INFOPLIST_FILE = Janken/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = rplay.Janken;
@@ -422,6 +457,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 356ZH6XUVH;
 				INFOPLIST_FILE = Janken/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = rplay.Janken;
@@ -503,6 +540,7 @@
 				7A79712F1DC652B200D55946 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7A7971301DC652B200D55946 /* Build configuration list for PBXNativeTarget "JankenTests" */ = {
 			isa = XCConfigurationList;
@@ -511,6 +549,7 @@
 				7A7971321DC652B200D55946 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7A7971331DC652B200D55946 /* Build configuration list for PBXNativeTarget "JankenUITests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +558,7 @@
 				7A7971351DC652B200D55946 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
